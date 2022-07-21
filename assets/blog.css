@@ -16,12 +16,43 @@ padding-left: 30px;
 .great{
 color:tomato;
 }
+nav a{
+text-decoration: none;
+background-color:red;
+border-radius:2px;
+padding: 6px;
+color: #fff;
+
+}
 #header-img{
     position:relative;
     left: 55%;
-    top: -190px;
+    top: -208px;
+}
+.End-part{
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+}
+hr{
+    width: 80%;
+}
+    
+.anchor li a{
+position: relative;
+left: 25%;
+text-decoration: none;
+color:gray;
+font-size: small;
+margin-right: 10px;
+
+
 }
 
+footer{
+    background-color: black;
+    height: 250px;
+}
 
 
 
