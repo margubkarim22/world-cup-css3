@@ -1,0 +1,32 @@
+/* <!-- header image or tex part --> */
+*
+header{
+    background-color: black;
+    font-family:'poppins',sans-serif;
+    color: #fff;
+    width: 921px;
+    height: 376px;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+.banner-tex{
+padding-top: 10px;
+padding-left: 30px;
+}
+.great{
+color:tomato;
+}
+#header-img{
+    position:relative;
+    left: 55%;
+    top: -190px;
+}
+
+
+
+
+
+
+
+ 
+
