@@ -17,25 +17,112 @@ padding-left: 30px;
 color:tomato;
 }
 nav a{
-text-decoration: none;
-background-color:red;
-border-radius:2px;
-padding: 6px;
-color: #fff;
-
+ text-decoration: none;
+ padding: 5px;
+ background-color: red;
+ color: #fff;
+border-radius: 2px;
 }
+
 #header-img{
     position:relative;
     left: 55%;
-    top: -208px;
+    top: -208px;}
+
+ /* <!-- botton or image part --> */
+nav ul li a{
+text-decoration: none;
+background-color:whitesmoke;
+border-radius:2px;
+padding: 6px;
+color: black;
 }
-.End-part{
+/* middle-part */
+
+.left-part{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    }
+    /* left-part--- */
+
+.left-part-box{
+height: 300px;
+background: #131313;
+border-radius: 10px;
+display: flex;
+flex-direction:column;
+align-items: center;
+justify-content: center;
+margin: auto;
+    }
+.button{
+margin: auto;
+width: 200px;
+height: 40px;
+background-color: #fff;
+border-radius: 7px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+    }
+.button a{
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    color:#131313;
+}
+.button:hover a{
+    color:greenyellow;
+    background-color: tomato;
+    padding: 12px;
+}
+    /* right part--- */
+    .right-part-parent{
+    display:grid ;
+    margin-left: 20px;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    }
+    .right-part-one{
+        border: 1px  solid  red; 
+        border-radius: 12px;
+    }
+
+    .right-part-one img{
+        width: 200px;
+    }
+    .info{
+        display: flex;
+    }
+    .transfer a{
+        text-decoration: none;
+
+    }
+    .transfer h1{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+    }
+
+
+
+
+
+
+
+
+/* End-part */
+/* .End-part{
     color: #fff;
     text-align: center;
     padding-top: 100px;
 }
 hr{
     width: 80%;
+    border: none;
+    border-bottom: 0.1px solid rgb(52, 52, 52);
 }
     
 .anchor li a{
@@ -51,7 +138,7 @@ margin-right: 10px;
 
 footer{
     background-color: black;
-    height: 250px;
+    height: 250px; */
 }
 
 
