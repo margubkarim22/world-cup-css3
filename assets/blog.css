@@ -1,34 +1,74 @@
 /* <!-- header image or tex part --> */
-*
 
-header{
-    background-color: black;
-    font-family:'poppins',sans-serif 'Roboto Condensed', sans-serif; 
-    color: #fff;
-    width: 921px;
-    height: 376px;
-    border-radius: 10px;
-    margin-left: 5%;
-}
-.banner-tex{
-padding-top: 10px;
-padding-left: 30px;
-}
-.great{
-color:tomato;
-}
-nav a{
- text-decoration: none;
- padding: 5px;
- background-color: red;
- color: #fff;
- border-radius: 2px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Condensed&display=swap');
+/*  */
+/* header{ */
+    /* background-color: black; */
+    /* font-family:'poppins',sans-serif 'Roboto Condensed', sans-serif;  */
+    /* color: #fff; */
+    /* width: 921px; */
+    /* height: 376px; */
+    /* border-radius: 10px; */
+    /* margin-left: 5%; */
+/* } */
+/* .banner-tex{ */
+/* padding-top: 10px; */
+/* padding-left: 30px; */
+/* } */
+/* .great{ */
+/* color:tomato; */
+/* } */
+/* nav a{ */
+ /* text-decoration: none; */
+ /* padding: 5px; */
+ /* background-color: red; */
+ /* color: #fff; */
+ /* border-radius: 2px; */
+/* } */
+/*  */
+/* #header-img{ */
+    /* position:relative; */
+    /* left: 55%; */
+    /* top: -208px;} */
+    
+    
+    .container-one {
+       display: flex;
+       background-color: #161616;
+       border-radius: 10px;
+       width: 89%;
+       margin-left: 30px;
+    }
+    .header-img{
+     margin-left: 120%;
+     margin-top: -50%;
 
-#header-img{
-    position:relative;
-    left: 55%;
-    top: -208px;}
+    }
+    .banner-tex{
+        padding: 25px;
+    }
+    .banner-tex h1 {
+        color: #fff;
+    }
+    .banner-tex p{
+        color:#fff;
+       
+    }
+    .banner-tex h2{
+        color:tomato;
+    }
+    .banner-tex a{
+        color: #fff;
+        text-decoration: none;
+        background-color: rgb(231, 6, 6);
+        padding: 10px;
+       border-radius: 5px;
+    }
+    
+
+
+
+
 
  /* <!-- botton or image part --> */
 nav ul li a{
@@ -47,7 +87,8 @@ nav:hover a{
 
 .left-part{
 display: grid;
-grid-template-columns:300px 1fr;
+grid-template-columns: 1 1fr;
+
 }
     /* left-part--- */
 
@@ -55,7 +96,7 @@ grid-template-columns:300px 1fr;
 height: 225px;
 background: #131313;
 border-radius: 10px;
-display: flex;
+display:flex;
 flex-direction:column;
 align-items: center;
 justify-content: center;
@@ -63,8 +104,8 @@ margin: 50px;
 margin-right:24px;
     }
 .button{
-margin: auto;
-width: 200px;
+margin: 10px;
+width: 180px;
 height: 40px;
 background-color: #fff;
 border-radius: 7px;
@@ -86,9 +127,9 @@ align-items: center;
 }
     /* right part--- */
 
-   .container{
+   .container-two{
     display: flex;
-     margin-right: -10%;
+    margin-right: -10%;
    } 
         
     .right-part-parent{
@@ -96,11 +137,14 @@ align-items: center;
     margin-top: 50px;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap:24px;
-    grid-column-gap:24px;
+    grid-column-gap:24px;}
 
+    .right-part-parent img{
+     width: 100%;
     }
+    
     .right-part-one{
-        border: 0.5px  solid  rgb(197, 196, 196); 
+        border: 0.5px  solid  rgb(227, 226, 226); 
         border-radius: 10px;
     }
 
@@ -141,6 +185,19 @@ align-items: center;
 .fa-regular {
  margin-right:10px;
 } 
+/* view-buttn -for bunas*/
+nav{
+   margin-top: 20%;
+   
+}
+.view a {
+   text-decoration: none;
+   padding:  5px 20px;
+   color: #fff;
+   background-color:red;
+   border-radius: 5px;
+   
+}
 
 /* End-part */
 hr{
@@ -162,7 +219,7 @@ margin-right:10px;
 footer{
     background-color:rgb(120, 8, 167);
     height:200px; 
-    width:100%;
+    width: 100%;
     
 }
 footer h2{
@@ -180,7 +237,91 @@ footer h2{
      
 }
 .social-icon p{
-margin:10px;
+ margin:10px;
 }
 
+/*----- match------- */
+.match-container{
+    display:grid;
+    margin-top: 50px;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap:12px;
+    grid-column-gap:12px;
+    
+}
+.chack{
+    display: flex;
+}
+  
+.right-part-flag img{
+    margin: 20px;
+    width: 25%;
+   
+}
+.right-part-flag{
+     border: 0.5px  solid  rgb(231, 229, 229); 
+     border-radius: 10px;}
+     .tex h4{
+        text-align: center;
+     }
+     .info-Match {
+        text-align: center;
+     } 
+     .info-Match p{
+        font-size:small;
+        color:gray;
+     }
 
+     .match-container{
+        display:grid;
+        margin-top: 50px;
+        grid-template-columns: repeat(3,1fr);
+        grid-row-gap:12px;
+        grid-column-gap:12px;
+        width: 59%;
+    }
+     /* -------midea quarey----- 
+     ---------------------------*/
+    
+   
+    
+        /*  for mobile */
+        @media only screen and (max-width: 688px){
+
+            .header-img{
+            margin-top: 0;
+            margin-left: 0;
+            }
+            .container-two{
+             flex-direction:column;
+            }
+            .right-part-parent{
+             grid-template-columns: 1,1fr;
+            }
+            }
+             /* for teblet  */
+
+        
+          @media only screen {
+            .right-part-parent{
+                grid-template-columns:1,1fr ;
+            }
+          }      
+            
+        
+        
+    
+        
+    
+
+
+     
+     
+
+
+
+
+
+
+     
+   
